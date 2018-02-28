@@ -10,6 +10,7 @@ library(shiny)
 library(arules)
 library(arulesViz)
 library(plotly)
+load("titanic.raw.rdata")
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
     
