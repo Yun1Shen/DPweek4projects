@@ -11,7 +11,7 @@ library(shiny)
 library(arules)
 library(arulesViz)
 library(plotly)
-
+load("titanic.raw.rdata")
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
   
